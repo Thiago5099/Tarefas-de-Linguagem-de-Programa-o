@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.horse{
+    border: 10px solid rgb(229, 255, 0);
+    align-self: flex-end;
+}
+
+.camel{
+    border: 10px solid green;
+}
+
+
+main{
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+ }

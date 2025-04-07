@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100px; /* Reduzindo o tamanho das imagens para melhor visualização */
+    height: 100px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.cat{
+    border: 10px solid red;
+}
+
+.horse{
+    border: 10px solid rgb(229, 255, 0);
+}
+
+.camel{
+    border: 10px solid green;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px; 
+    align-items: center; 
+}

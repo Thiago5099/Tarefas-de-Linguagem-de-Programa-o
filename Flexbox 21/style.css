@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.camel{
+    border: 10px solid green;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+ }
